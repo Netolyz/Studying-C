@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main (){
+    char Nome[20];
+    int Idade;
+    int Nascimento;
+    float Altura;
+    float Peso;
+
+    printf("Digite seu nome:");
+    scanf("%s", Nome);
+
+    printf("Sua idade:");
+    scanf("%d", &Idade);
+
+    printf("Informe o ano do seu nascimento:");
+    scanf("%d", &Nascimento);
+
+    printf("Seu peso e sua altura: ");
+    scanf("%f %f", &Peso, &Altura);
+
+    if(Nascimento < 1940){
+        printf("%d esse nascimento não é válido\n", Nascimento);
+    }
+    if(Idade > 120){
+        printf("%d Essa idade não é válida\n", Idade);
+    }
+    if(Peso, Altura > 500.00){
+        printf("%1.f %1.f Essa pesagem e altura são invalidas!", Peso, Altura);
+    }
+    else{
+
+    printf("Seu nome é %s\n Idade:%d\n Nasceu no ano de %d\n Pesa %.1f e mede %.1f", Nome, Idade, Nascimento, Peso, Altura);}
+
+   return 0;
+
+}
