@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+
+    int numero1;
+    int numero2;
+
+    printf("digite a um numero entre 1 e 10: ");
+    scanf("%d", &numero1);
+    if(numero1 < 1|| 10 < numero1){
+        printf("Numero invalido!\n");
+        }else{
+            printf("Numero %d é válido!\n", numero1);
+        }
+        
+    printf("digite um numero entre 11 e 20: ");
+    scanf("%d", &numero2);
+    if(numero2 < 11|| numero2 > 20){
+        printf("numero invalido!");
+    }else{
+        printf("numero %d é valido!",numero2);
+    }
+
+return 0;
+}
