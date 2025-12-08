@@ -1,7 +1,7 @@
 #include <stdio.h>
-//TEST PURAMENTE UM TESTE SE DER ERRADO DEU!!
+//Test Super Trunfo 1
 
-
+//Estrutura dos modelos de carta
 struct Carta{
     int carta1, pontos_turisticos1;
     float PIB1, populaçao1, area1;
@@ -13,7 +13,7 @@ struct Carta{
 
 
 
-
+//Dados das cartas
 int main(){
    struct Carta carta_1 = {
     1,
@@ -38,6 +38,7 @@ int main(){
 
    };
 
+//Entrada da opção (limitada a numeros de 1 a 2 pela quantidade existente de cartas)
    int escolha;
 
    printf("Escolha uma carta(1 e 2): ");
